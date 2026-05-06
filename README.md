@@ -93,3 +93,4 @@ Other bytecode changes. Some are resonable, some will be obsolete, others I don'
 |                    | `com/eloraam/redpower/machine/TileMotor.java`                      | TODO: Bigger changes, look in detail (patchedMods)                                                                    |
 | Tubestuff          | `immibis/tubestuff/ContainerAutoCraftingMk2.java`                  | `BasicInventory.mergeStackIntoRange` yeeted out                                                                       |
 | ChickenChunks      | `codechicken/chunkloader/ChunkLoaderManager.java`                  | Reversed calls to `loadLoginTimes()`, makes online in the last X hours requirement actually work                      |
+| Railcraft          | `railcraft/common/carts/MinecartHooks.java`                        | Functionality of method `testHighSpeedCollision` removed, likely griefing prevention (Expert only)                    |
